@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\girisekrani\\personelgiris.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\girisekrani\\personelgiris.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\kategoriler\\musterikozmetik.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\kategoriler\\musterikozmetik.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\girisekrani\\musterigiris.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\girisekrani\\musterigiris.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\girisekrani\\musterigiris.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\girisekrani\\musterigiris.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\resources\\images\\logo_saydam.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\resources\\images\\logo_saydam.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\resources\\images\\logo_arkaplan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\resources\\images\\logo_arkaplan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\resources\\images\\pembe_arkaplan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\resources\\images\\pembe_arkaplan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\kategoriler\\sepetim.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\kategoriler\\sepetim.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\kategoriler\\sepetim.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\kategoriler\\sepetim.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\viewmodels\\sepetimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\viewmodels\\sepetimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\services\\siparishandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\services\\siparishandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\baglanti\\sepetbaglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\baglanti\\sepetbaglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\validation\\sepetimvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\validation\\sepetimvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\yamimaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\yamimaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\kategoriler\\personelmeyvevesebze.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\kategoriler\\personelmeyvevesebze.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\dto\\pastanelistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\dto\\pastanelistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|c:\\users\\mat76\\source\\repos\\yamimaui\\yamimaui\\siniflar\\sepet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB4E983-CD14-4E52-8CFF-2668678EEB76}|YAMiMAUI\\YAMiMAUI.csproj|solutionrelative:yamimaui\\siniflar\\sepet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonelGiris.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\PersonelGiris.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\GirisEkrani\\PersonelGiris.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\PersonelGiris.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\GirisEkrani\\PersonelGiris.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:14:34.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\App.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:19:02.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:13:29.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\AppShell.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:13:24.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusteriKozmetik.xaml",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\MusteriKozmetik.xaml",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Kategoriler\\MusteriKozmetik.xaml",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\MusteriKozmetik.xaml",
+              "RelativeToolTip": "YAMiMAUI\\Kategoriler\\MusteriKozmetik.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T16:47:58.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MainPage.xaml",
+              "RelativeDocumentMoniker": "YAMiMAUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MainPage.xaml",
+              "RelativeToolTip": "YAMiMAUI\\MainPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T15:08:49.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MusteriGiris.xaml",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml",
+              "RelativeDocumentMoniker": "YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml",
+              "RelativeToolTip": "YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T15:08:15.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MusteriGiris.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\GirisEkrani\\MusteriGiris.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:08:13.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "logo_saydam.png - PNG [1024x1024, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\logo_saydam.png",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Resources\\Images\\logo_saydam.png",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\logo_saydam.png - PNG [1024x1024, 32 bit, PNG]",
+              "RelativeToolTip": "YAMiMAUI\\Resources\\Images\\logo_saydam.png - PNG [1024x1024, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-16T15:06:39.781Z",
+              "EditorCaption": " - PNG [1024x1024, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "logo_arkaplan.png - PNG [1260x832, 24 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\logo_arkaplan.png",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Resources\\Images\\logo_arkaplan.png",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\logo_arkaplan.png - PNG [1260x832, 24 bit, PNG]",
+              "RelativeToolTip": "YAMiMAUI\\Resources\\Images\\logo_arkaplan.png - PNG [1260x832, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-16T15:06:35.375Z",
+              "EditorCaption": " - PNG [1260x832, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "pembe_arkaplan.png - PNG [374x832, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\pembe_arkaplan.png",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Resources\\Images\\pembe_arkaplan.png",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Resources\\Images\\pembe_arkaplan.png - PNG [374x832, 8 bit, PNG]",
+              "RelativeToolTip": "YAMiMAUI\\Resources\\Images\\pembe_arkaplan.png - PNG [374x832, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-16T15:06:16.713Z",
+              "EditorCaption": " - PNG [374x832, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SepetBaglanti.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Baglanti\\SepetBaglanti.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Baglanti\\SepetBaglanti.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Baglanti\\SepetBaglanti.cs",
+              "RelativeToolTip": "YAMiMAUI\\Baglanti\\SepetBaglanti.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:16:57.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SiparisHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Services\\SiparisHandler.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Services\\SiparisHandler.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Services\\SiparisHandler.cs",
+              "RelativeToolTip": "YAMiMAUI\\Services\\SiparisHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:13:29.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SepetimValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Validation\\SepetimValidator.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Validation\\SepetimValidator.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Validation\\SepetimValidator.cs",
+              "RelativeToolTip": "YAMiMAUI\\Validation\\SepetimValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:14:06.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sepetim.xaml",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\Sepetim.xaml",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Kategoriler\\Sepetim.xaml",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\Sepetim.xaml",
+              "RelativeToolTip": "YAMiMAUI\\Kategoriler\\Sepetim.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAHgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-13T15:07:20.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sepetim.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\Sepetim.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Kategoriler\\Sepetim.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\Sepetim.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\Kategoriler\\Sepetim.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:02:04.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SepetimViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\ViewModels\\SepetimViewModel.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\ViewModels\\SepetimViewModel.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\ViewModels\\SepetimViewModel.cs",
+              "RelativeToolTip": "YAMiMAUI\\ViewModels\\SepetimViewModel.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAIwPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T21:12:41.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\MauiProgram.cs",
+              "RelativeToolTip": "YAMiMAUI\\MauiProgram.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T21:01:32.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "YAMiMAUI.csproj",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\YAMiMAUI.csproj",
+              "RelativeDocumentMoniker": "YAMiMAUI\\YAMiMAUI.csproj",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\YAMiMAUI.csproj",
+              "RelativeToolTip": "YAMiMAUI\\YAMiMAUI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T21:12:11.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PersonelMeyveVeSebze.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\PersonelMeyveVeSebze.xaml.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Kategoriler\\PersonelMeyveVeSebze.xaml.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Kategoriler\\PersonelMeyveVeSebze.xaml.cs",
+              "RelativeToolTip": "YAMiMAUI\\Kategoriler\\PersonelMeyveVeSebze.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T19:27:20.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PastaneListeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\DTO\\PastaneListeDTO.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\DTO\\PastaneListeDTO.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\DTO\\PastaneListeDTO.cs",
+              "RelativeToolTip": "YAMiMAUI\\DTO\\PastaneListeDTO.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA3wDAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:55:09.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sepet.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Siniflar\\Sepet.cs",
+              "RelativeDocumentMoniker": "YAMiMAUI\\Siniflar\\Sepet.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMiMAUI\\YAMiMAUI\\Siniflar\\Sepet.cs",
+              "RelativeToolTip": "YAMiMAUI\\Siniflar\\Sepet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T21:01:15.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

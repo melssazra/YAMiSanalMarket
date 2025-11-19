@@ -1,0 +1,133 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YAMiMAUI.Kategoriler.Bilgilerim"
+             Title="Bilgilerim">
+
+    <AbsoluteLayout >
+
+        <Image Source="logo_arkaplan.png"
+                Aspect="Fill"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All" />
+        <!-- Logo -->
+        <Image Source="yamisanalmarketlogo.png"
+                WidthRequest="125"
+                HeightRequest="125"
+                AbsoluteLayout.LayoutBounds="0.035, 0.05, 100, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Ad-Soyad -->
+        <StackLayout Orientation="Horizontal"
+         AbsoluteLayout.LayoutBounds="0.25, 0.30, -1, -1"
+         AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Ad-Soyad:"
+                   FontSize="16"
+                   VerticalOptions="Center"
+                   WidthRequest="100" />
+            <Entry x:Name="nameEntry"
+                   WidthRequest="200"
+                   BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Kullanıcı Adı -->
+        <StackLayout Orientation="Horizontal"
+                 AbsoluteLayout.LayoutBounds="0.25, 0.46, -1, -1"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Kullanıcı Adı:"
+               FontSize="16"
+               VerticalOptions="Center"
+               WidthRequest="100" />
+            <Entry x:Name="usernameEntry"
+               WidthRequest="200"
+               BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Şifre -->
+        <StackLayout Orientation="Horizontal"
+                 AbsoluteLayout.LayoutBounds="0.25, 0.62, -1, -1"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Şifre:"
+               FontSize="16"
+               VerticalOptions="Center"
+               WidthRequest="100" />
+            <Entry x:Name="passwordEntry"
+               WidthRequest="200"
+               BackgroundColor="White" />
+        </StackLayout>
+
+        <!--Mail-->
+        <StackLayout Orientation="Horizontal"
+           AbsoluteLayout.LayoutBounds="0.75, 0.30, -1, -1"
+           AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="E-Mail:"
+                    FontSize="16"
+                    VerticalOptions="Center"
+                    WidthRequest="100" />
+            <Entry x:Name="mailEntry"
+                   Placeholder="....@gmail.com"
+                   WidthRequest="200"
+                  BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Telefon Numarası -->
+        <StackLayout Orientation="Horizontal"
+                     AbsoluteLayout.LayoutBounds="0.75, 0.46, -1, -1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Telefon Numarası:"
+               FontSize="16"
+               VerticalOptions="Center"
+               WidthRequest="100" />
+            <Entry x:Name="phoneEntry"
+               Keyboard="Telephone"
+               MaxLength="11"
+               WidthRequest="200"
+               BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Adres -->
+        <StackLayout Orientation="Horizontal"
+                     AbsoluteLayout.LayoutBounds="0.75, 0.62, -1, -1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Adres:"
+               FontSize="16"
+               VerticalOptions="Center"
+               WidthRequest="100" />
+            <Entry x:Name="addressEntry"
+               WidthRequest="200"
+               BackgroundColor="White" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+             Spacing="40"
+             AbsoluteLayout.LayoutBounds="0.5,0.80,-1,-1"
+             AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Button Text="Güncelle"
+            BackgroundColor="#520911"
+            TextColor="White"
+            WidthRequest="200"
+            Clicked="GuncelleClicked" />
+        </StackLayout>
+
+        <Button Text="Hesabımı Sil"
+        FontSize="12"
+        WidthRequest="150"
+        HeightRequest="50"
+        Background="#520911"
+        TextColor="White"
+        AbsoluteLayout.LayoutBounds="0.90,0.90,-1,-1"
+        AbsoluteLayout.LayoutFlags="PositionProportional"
+        Clicked="HesapSilClicked"/>
+
+        <Button Text="Oturumu Kapat"
+        FontSize="12"
+        WidthRequest="150"
+        HeightRequest="50"
+        Background="#520911"
+        TextColor="White"
+        AbsoluteLayout.LayoutBounds="0.12,0.90,-1,-1"
+        AbsoluteLayout.LayoutFlags="PositionProportional"
+        Clicked="OturumKapatClicked"/>
+
+
+    </AbsoluteLayout>
+</ContentPage>

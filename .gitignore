@@ -1,0 +1,19 @@
+# Visual Studio / Rider
+**/[Dd]ebug/
+**/[Rr]elease/
+**/bin/
+**/obj/
+
+# Packages and Artifacts
+**/*.pdb
+**/*.suo
+**/TestResults/
+
+# MAUI Specific
+**/MauiProgram.cs.bak
+
+# User-Specific Files
+*.user
+
+# Secret Files (Connection Strings etc.)
+**/appsettings*.Development.json

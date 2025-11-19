@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YAMiMAUI.KategoriSecme.MusteriKategori"
+             Title="Kategoriler">
+    <AbsoluteLayout>
+
+        <Image Source="logo_arkaplan.png"
+           Aspect="Fill"
+           AbsoluteLayout.LayoutBounds="0,0,1,1"
+           AbsoluteLayout.LayoutFlags="All" />
+
+        <Label
+            Text="         YAMi &#10; SANAL MARKET"
+            FontAttributes="Bold"
+            TextColor="#520911"
+            FontSize="20"
+            AbsoluteLayout.LayoutBounds="0.02,0.04,-1,-1"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+
+        <Frame
+           Padding="0"
+           CornerRadius="20"
+           IsClippedToBounds="True"
+           WidthRequest="150"
+           HeightRequest="140"
+           HasShadow="False"
+           AbsoluteLayout.LayoutBounds="0.27,0.28,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            <Image Source="paketli_gidalar.png"
+           Aspect="AspectFill" />
+        </Frame>
+
+
+        <Button
+           Text="Yiyecek &#10;    Ve &#10; İçecek"
+           FontSize="20"
+           FontAttributes="Bold"
+           WidthRequest="150"
+           HeightRequest="140"
+           BackgroundColor="#A6520911"
+           TextColor="White"
+           CornerRadius="20"
+           AbsoluteLayout.LayoutBounds="0.27,0.28,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional" 
+           Clicked="YiyecekVeIcecekClicked"/>
+
+
+        <Frame
+           Padding="0"
+           CornerRadius="20"
+           IsClippedToBounds="True"
+           WidthRequest="150"
+           HeightRequest="140"
+           HasShadow="False"
+           AbsoluteLayout.LayoutBounds="0.73,0.28,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            <Image Source="meyve_sebze.png"
+               Aspect="AspectFill" />
+        </Frame>
+
+
+        <Button
+           Text="Meyve &#10;   Ve &#10; Sebze"
+           FontSize="20"
+           FontAttributes="Bold"
+           WidthRequest="150"
+           HeightRequest="140"
+           BackgroundColor="#A6520911"
+           TextColor="White"
+           CornerRadius="20"
+           AbsoluteLayout.LayoutBounds="0.73,0.28,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional" 
+           Clicked="MeyveVeSebzeClicked"/>
+
+        <Frame
+          Padding="0"
+          CornerRadius="20"
+          IsClippedToBounds="True"
+          WidthRequest="150"
+          HeightRequest="140"
+          HasShadow="False"
+          AbsoluteLayout.LayoutBounds="0.27,0.85,-1,-1"
+          AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            <Image Source="kozmetik.png"
+                   Aspect="AspectFill" />
+        </Frame>
+
+        <Button
+           Text="Kozmetik"
+           FontSize="20"
+           FontAttributes="Bold"
+           WidthRequest="150"
+           HeightRequest="140"
+           BackgroundColor="#A6520911"
+           TextColor="White"
+           CornerRadius="20"
+           AbsoluteLayout.LayoutBounds="0.27,0.85,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional"
+           Clicked="KozmetikClicked"/>
+
+
+        <Frame
+           Padding="0"
+           CornerRadius="20"
+           IsClippedToBounds="True"
+           WidthRequest="150"
+           HeightRequest="140"
+           HasShadow="False"
+           AbsoluteLayout.LayoutBounds="0.73,0.85,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional">
+
+            <Image Source="pastane.png"
+                   Aspect="AspectFill" />
+        </Frame>
+
+        <Button
+           Text="Pastane"
+           FontSize="20"
+           FontAttributes="Bold"
+           WidthRequest="150"
+           HeightRequest="140"
+           BackgroundColor="#A6520911"
+           TextColor="White"
+           CornerRadius="20"
+           AbsoluteLayout.LayoutBounds="0.73,0.85,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional"
+           Clicked="PastaneClicked"/>
+
+        <!-- Sepet Butonu -->
+        <Image Source="alisveris_sepet.png"
+               WidthRequest="50"
+               HeightRequest="50"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.95,0.09,50,50"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Label
+               Text="Sepetim"
+               FontAttributes="Bold"
+               TextColor="#520911"
+               FontSize="16"
+               AbsoluteLayout.LayoutBounds="0.965,0.20,-1,-1"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button
+               WidthRequest="70"
+               HeightRequest="87"
+               BackgroundColor="Transparent"
+               CornerRadius="30"
+               AbsoluteLayout.LayoutBounds="0.97,0.05,-1,-1"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               Clicked="SepetimClicked"/>
+
+
+
+        <!-- Musteri Bilgileri Butonu -->
+        <Image Source="musteri.png"
+       WidthRequest="70"
+       HeightRequest="70"
+       Aspect="AspectFit"
+       AbsoluteLayout.LayoutBounds="0.9575,0.90,50,50"
+       AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Label
+       Text="Hesabım"
+       FontAttributes="Bold"
+       TextColor="#520911"
+       FontSize="16"
+       AbsoluteLayout.LayoutBounds="0.965,0.96,-1,-1"
+       AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+
+        <Button WidthRequest="70"
+                HeightRequest="103"
+                BackgroundColor="Transparent"
+                CornerRadius="30"
+                AbsoluteLayout.LayoutBounds="0.97,0.90,-1,-1" 
+                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                 Clicked="BilgilerimClicked"/>
+
+
+
+
+    </AbsoluteLayout>
+</ContentPage>

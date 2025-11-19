@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAMiMAUI", "YAMiMAUI\YAMiMAUI.csproj", "{BEB4E983-CD14-4E52-8CFF-2668678EEB76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB4E983-CD14-4E52-8CFF-2668678EEB76}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {442CD874-C5A1-42EA-954A-9F4D0FA4A94F}
+	EndGlobalSection
+EndGlobal

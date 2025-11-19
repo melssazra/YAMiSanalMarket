@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|c:\\users\\mat76\\source\\repos\\yami_api\\yami_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|solutionrelative:yami_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|c:\\users\\mat76\\source\\repos\\yami_api\\yami_api\\dto\\meyvevesebzelistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|solutionrelative:yami_api\\dto\\meyvevesebzelistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|c:\\users\\mat76\\source\\repos\\yami_api\\yami_api\\dto\\sepetlistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|solutionrelative:yami_api\\dto\\sepetlistedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|c:\\users\\mat76\\source\\repos\\yami_api\\yami_api\\siniflar\\sepet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|solutionrelative:yami_api\\siniflar\\sepet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|c:\\users\\mat76\\source\\repos\\yami_api\\yami_api\\kontroller\\sepetkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91129EB8-326D-4009-AB92-415E93F3D951}|YAMi_API\\YAMi_API.csproj|solutionrelative:yami_api\\kontroller\\sepetkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Program.cs",
+              "RelativeDocumentMoniker": "YAMi_API\\Program.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Program.cs",
+              "RelativeToolTip": "YAMi_API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T17:27:48.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeyveVeSebzeListeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\DTO\\MeyveVeSebzeListeDTO.cs",
+              "RelativeDocumentMoniker": "YAMi_API\\DTO\\MeyveVeSebzeListeDTO.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\DTO\\MeyveVeSebzeListeDTO.cs",
+              "RelativeToolTip": "YAMi_API\\DTO\\MeyveVeSebzeListeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:13:47.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SepetListeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\DTO\\SepetListeDTO.cs",
+              "RelativeDocumentMoniker": "YAMi_API\\DTO\\SepetListeDTO.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\DTO\\SepetListeDTO.cs",
+              "RelativeToolTip": "YAMi_API\\DTO\\SepetListeDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T21:06:17.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sepet.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Siniflar\\Sepet.cs",
+              "RelativeDocumentMoniker": "YAMi_API\\Siniflar\\Sepet.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Siniflar\\Sepet.cs",
+              "RelativeToolTip": "YAMi_API\\Siniflar\\Sepet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T21:05:57.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SepetKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Kontroller\\SepetKontrol.cs",
+              "RelativeDocumentMoniker": "YAMi_API\\Kontroller\\SepetKontrol.cs",
+              "ToolTip": "C:\\Users\\mat76\\source\\repos\\YAMi_API\\YAMi_API\\Kontroller\\SepetKontrol.cs",
+              "RelativeToolTip": "YAMi_API\\Kontroller\\SepetKontrol.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAIwN4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:18:59.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

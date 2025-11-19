@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YAMiMAUI.GirisEkrani.MusteriGiris"
+             Title="Müşteri Giriş"
+             BackgroundColor="#FADADD">
+
+    <AbsoluteLayout>
+
+        <!-- Logo -->
+        <Image Source="yamisanalmarketlogo.png"
+               WidthRequest="100"
+               HeightRequest="100"
+               AbsoluteLayout.LayoutBounds="0.5, 0.1, 100, 100"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Hoşgeldiniz -->
+        <Label Text="HOŞGELDİNİZ"
+               FontAttributes="Italic"
+               FontSize="24"
+               TextColor="#520911"
+               HorizontalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.30, -1, -1"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Kullanıcı Adı -->
+        <StackLayout Orientation="Horizontal"
+                     AbsoluteLayout.LayoutBounds="0.5, 0.42, -1, -1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Kullanıcı Adı:"
+                   FontSize="16"
+                   VerticalOptions="Center"
+                   WidthRequest="100" />
+            <Entry x:Name="usernameEntry"
+                   Placeholder="Kullanıcı adınızı girin"
+                   WidthRequest="200"
+                   BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Şifre -->
+        <StackLayout Orientation="Horizontal"
+                     AbsoluteLayout.LayoutBounds="0.5, 0.55, -1, -1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label Text="Şifre:"
+                   FontSize="16"
+                   VerticalOptions="Center"
+                   WidthRequest="100" />
+            <Entry x:Name="passwordEntry"
+                   IsPassword="True"
+                   Placeholder="Şifrenizi girin"
+                   WidthRequest="200"
+                   BackgroundColor="White" />
+        </StackLayout>
+
+        <!-- Butonlar -->
+        <StackLayout AbsoluteLayout.LayoutBounds="0.53, 0.80, -1, -1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
+            <StackLayout Orientation="Horizontal" Spacing="40">
+                <Button Text="GİRİŞ"
+                        BackgroundColor="#520911"
+                        TextColor="White"
+                        WidthRequest="100"
+                        Clicked="GirisClicked" />
+                <Button Text="ÜYE OL"
+                        BackgroundColor="#520911"
+                        TextColor="White"
+                        WidthRequest="100"
+                        Clicked="UyeOlClicked" />
+            </StackLayout>
+            <Button Text="Şifremi Unuttum"
+                    BackgroundColor="Transparent"
+                    TextColor="#520911"
+                    WidthRequest="155"
+                    HorizontalOptions="Center"
+                    Margin="0,10,0,0"
+                    FontAttributes="Bold"
+                    Clicked="SifremiUnuttumClicked" />
+        </StackLayout>
+
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YAMiMAUI.Kategoriler.PersonelKozmetik"
+             Title="Kozmetik">
+
+    <Grid>
+        <!-- Arka plan resmi -->
+        <Image Source="logo_arkaplan.png"
+           Aspect="Fill"
+           Grid.RowSpan="2" />
+
+        <AbsoluteLayout>
+            <!-- Ürün listesi (örnek) -->
+            <CollectionView x:Name="PersonelKozmetikCollectionView"
+                            ItemsSource="{Binding urunListesi}"
+                            AbsoluteLayout.LayoutBounds="0,0,0.75,1"
+                            AbsoluteLayout.LayoutFlags="All">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="10" Padding="10" BorderColor="Gray" CornerRadius="10" BackgroundColor="White" Opacity="0.8">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <!-- Yazılar -->
+                                <StackLayout Spacing="5" Grid.Column="0">
+                                    <Label Text="{Binding KAdi}" FontAttributes="Bold" FontSize="18" TextColor="Black"/>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Satış Fiyatı: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding KSatisF, StringFormat='{}{0:F2}'}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Alış Fiyatı: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding KAlisF, StringFormat='{}{0:F2}'}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Miktarı: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding KMiktari}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label FontSize="14" TextColor="Gray">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="ID: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding KId}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Ekleyen: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding EkleyenPersonel}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Tarih: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding EklenmeTarihi, StringFormat='{}{0:dd.MM.yyyy HH:mm}'}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Güncelleyen: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding GuncelleyenPersonel}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Güncelleme Tarihi: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding GuncellemeTarihi, StringFormat='{}{0:dd.MM.yyyy HH:mm}'}" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+
+                                <!-- sil ve güncelle butonları -->
+                                <VerticalStackLayout Grid.Column="1"
+                                                     VerticalOptions="Start"
+                                                     Spacing="25"
+                                                     Margin="10,0,0,0">
+                                    <Button Text="Güncelle"
+                                            BackgroundColor="#88b718"
+                                            TextColor="White"
+                                            FontSize="15"
+                                            WidthRequest="100"
+                                            HeightRequest="50"
+                                            CommandParameter="{Binding}"
+                                            Clicked="GuncelleButonClicked" />
+
+                                    <Button Text="Sil"
+                                            BackgroundColor="#475f0f"
+                                            TextColor="White"
+                                            FontSize="15"
+                                            WidthRequest="100"
+                                            HeightRequest="50" 
+                                            CommandParameter="{Binding}"
+                                            Clicked="SilButonClicked" />
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label
+                 Text="          YAMi &#10; SANAL MARKET"
+                 FontAttributes="Bold"
+                 TextColor="#520911"
+                 FontSize="20"
+                 AbsoluteLayout.LayoutBounds="0.97,0.1,-1,-1"
+                 AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+            <!-- ürün ekle butonu -->
+            <Button Text="Yeni Ürün &#10;     Ekle"
+                WidthRequest="100"
+                HeightRequest="100"
+                AbsoluteLayout.LayoutBounds="0.93,0.55,-1,-1"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                BackgroundColor="#520911"
+                TextColor="White"
+                Clicked="PastaneUrunEkleClicked" />
+
+            <!-- Ürün Eklemek İçin PopUp -->
+            <Grid x:Name="popupKatmani"
+                  BackgroundColor="#80000000"
+                  IsVisible="False"
+                  AbsoluteLayout.LayoutBounds="0,0,1,1"
+                  AbsoluteLayout.LayoutFlags="All">
+
+                <Frame Padding="20" BackgroundColor="White" WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center">
+                    <VerticalStackLayout Spacing="10">
+                        <Entry x:Name="urunAdiEntry" Placeholder="Ürün Adı" />
+                        <Entry x:Name="urunSatisFEntry" Placeholder="Satış Fiyatı" Keyboard="Numeric" />
+                        <Entry x:Name="urunAlisFEntry" Placeholder="Alış Fiyatı" Keyboard="Numeric" />
+                        <Entry x:Name="urunMiktarEntry" Placeholder="Miktar" Keyboard="Numeric" />
+                        <Button Text="Kaydet" BackgroundColor="#520911" TextColor="White" Clicked="PopupKaydetClicked"/>
+                        <Button Text="İptal" BackgroundColor="#520911" TextColor="White" Clicked="PopupIptalClicked"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+            </Grid>
+
+            <!-- Ürün Güncellemek İçin PopUp -->
+            <Grid x:Name="popupGuncelleKatmani"
+              BackgroundColor="#80000000"
+              IsVisible="False"
+              AbsoluteLayout.LayoutBounds="0,0,1,1"
+              AbsoluteLayout.LayoutFlags="All">
+
+                <Frame Padding="20" BackgroundColor="White" WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center">
+                    <VerticalStackLayout Spacing="10">
+                        <Entry x:Name="urunYeniAdiEntry" Placeholder="Ürün Adı" />
+                        <Entry x:Name="urunYeniSatisFEntry" Placeholder="Satış Fiyatı" Keyboard="Numeric" />
+                        <Entry x:Name="urunYeniAlisFEntry" Placeholder="Alış Fiyatı" Keyboard="Numeric" />
+                        <Entry x:Name="urunYeniMiktarEntry" Placeholder="Miktar" Keyboard="Numeric" />
+                        <Button Text="Güncelle" BackgroundColor="#520911" TextColor="White" Clicked="PopupGuncelleClicked"/>
+                        <Button Text="İptal" BackgroundColor="#520911" TextColor="White" Clicked="PopupGIptalClicked"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+            </Grid>
+
+        </AbsoluteLayout>
+    </Grid>
+
+</ContentPage>

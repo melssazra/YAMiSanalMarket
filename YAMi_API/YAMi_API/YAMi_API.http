@@ -1,0 +1,6 @@
+@YAMi_API_HostAddress = http://localhost:5044
+
+GET {{YAMi_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

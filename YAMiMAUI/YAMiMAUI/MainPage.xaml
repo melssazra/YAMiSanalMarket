@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YAMiMAUI.MainPage">
+
+    <AbsoluteLayout>
+
+        <!-- Arka plan fotoğrafı (ekranı tamamen kaplar) -->
+        <Image Source="logo_arkaplan.png"
+            Aspect="Fill"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All" />
+
+        <!-- Başlık -->
+        <Label
+           Text="YAMi SANAL MARKET"
+           FontAttributes="Bold"
+           TextColor="#520911"    
+           FontSize="40"
+           AbsoluteLayout.LayoutBounds="0.5,0.1,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Müşteri Temsili Resmi -->
+        <Image Source="musteri.png"
+        WidthRequest="130"
+        HeightRequest="130"
+        Aspect="AspectFit"
+        AbsoluteLayout.LayoutBounds="0.25,0.42,130,130"
+        AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Çalışan Temsili Resmi -->
+        <Image Source="calisan.png"
+            WidthRequest="130"
+            HeightRequest="130"
+            Aspect="AspectFit"
+            AbsoluteLayout.LayoutBounds="0.75,0.42,130,130"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Müşteri Girişi Butonu -->
+        <Button
+           Text="Müşteri &#10;  Girişi"
+           FontSize="20"
+           WidthRequest="140"
+           HeightRequest="100"
+           BackgroundColor="#CC520911"
+           TextColor="White"
+           CornerRadius="10"
+           AbsoluteLayout.LayoutBounds="0.25,0.75,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional" 
+           Clicked="MusteriGirisiClicked"/>
+
+        <!-- Personel Girişi Butonu -->
+        <Button
+           Text="Personel &#10;   Girişi"
+           FontSize="20"
+           WidthRequest="140"
+           HeightRequest="100"
+           BackgroundColor="#CC520911"
+           TextColor="White"
+           CornerRadius="10"
+           AbsoluteLayout.LayoutBounds="0.75,0.75,-1,-1"
+           AbsoluteLayout.LayoutFlags="PositionProportional"
+           Clicked="PersonelGirisClicked"/>
+        
+        <!-- API Test Butonu --><!--
+        <Button Text="Test API Bağlantısı"
+                FontSize="16"
+                WidthRequest="140"
+                HeightRequest="50"
+                BackgroundColor="#CC520911"
+                TextColor="White"
+                CornerRadius="10"
+                AbsoluteLayout.LayoutBounds="0.5,0.9,-1,-1"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="TestApiClicked"/>-->
+
+
+    </AbsoluteLayout>
+
+</ContentPage>
